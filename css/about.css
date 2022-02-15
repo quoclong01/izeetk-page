@@ -1,0 +1,137 @@
+.about {
+  margin-top: 120px;
+}
+
+.about-main {
+  display: flex;
+  padding-bottom: 120px;
+  border-bottom: 1px solid var(--line);
+}
+
+.about-image {
+  max-width: 510px;
+  margin-right: 60px;
+}
+
+.about-image img {
+  height: 585px;
+  width: 510px;
+  border-radius: 10px;
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-heading {
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.about-desc {
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--slider-btn);
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.about-progress {
+  display: flex;
+  gap: 0 40px;
+}
+
+.about-progress-item {
+  display: flex;
+  align-items: center;
+}
+
+.about-progress-item .progress-text {
+  font-size: 20px;
+  line-height: 1.5;
+  color: var(--text-second);
+  max-width: 120px;
+  font-weight: 800;
+  margin-left: 15px;
+}
+
+.about-help-top {
+  height: 505px;
+}
+
+.testi {
+  background: url(../images/bg-testi.png) no-repeat center/cover;
+  height: 590px;
+  width: 100%;
+}
+
+.testi-main {
+  padding: 120px 0 120px 362px;
+}
+
+.testi-content {
+  max-width: 370px;
+  flex-shrink: 0;
+  margin-right: 30px;
+}
+
+.testi-heading {
+  margin-bottom: 40px;
+  margin-top: 8px;
+}
+
+.testi-list {
+  --gap: 30px;
+  --width: 470px;
+}
+
+.testi-item {
+  width: var(--width);
+  margin-right: var(--gap);
+  background-color: var(--white);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.testi-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.testi-header img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.testi-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-second);
+  margin-bottom: 5px;
+}
+
+.testi-job {
+  font-weight: 500;
+  color: var(--slider-btn);
+}
+
+.testi-desc {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.8;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.about-team {
+    padding: 120px 0;
+}

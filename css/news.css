@@ -1,0 +1,10 @@
+.news-list {
+    flex-wrap: wrap;
+    margin-left: -30px;
+    padding: 120px 0;
+    margin-bottom: -30px;
+}
+
+.post {
+    margin-bottom: 30px;
+}
